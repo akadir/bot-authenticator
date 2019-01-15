@@ -1,6 +1,6 @@
 package com.kadir.twitterbots.authentication;
 
-import com.kadir.twitterbots.exceptions.IllegalApiTokenException;
+import com.kadir.twitterbots.exceptions.PropertyNotLoadedException;
 import org.junit.Test;
 
 /**
@@ -10,8 +10,8 @@ import org.junit.Test;
  */
 public class BotAuthenticatorTest {
 
-    @Test(expected = IllegalApiTokenException.class)
+    @Test(expected = PropertyNotLoadedException.class)
     public void authenticateTest() {
-        BotAuthenticator.authenticate(null, null, null, null);
+        BotAuthenticator.authenticate("", "");
     }
 }
