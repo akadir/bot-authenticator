@@ -6,7 +6,7 @@ package com.kadir.twitterbots.exceptions;
  * Time: 15:48
  */
 public class PropertyNotLoadedException extends RuntimeException {
-    private static final String MESSAGE = "Error occured while getting properties from file. ";
+    private static final String MESSAGE = "Error occurred while getting properties from file: ";
 
     public PropertyNotLoadedException(String fileName) {
         super(MESSAGE + fileName);

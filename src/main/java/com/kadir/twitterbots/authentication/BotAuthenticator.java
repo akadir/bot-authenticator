@@ -46,7 +46,7 @@ public class BotAuthenticator {
             User authUser = twitter.showUser(twitter.verifyCredentials().getId());
             logger.info("Bot authenticated successfully. Account information: {} - @{} - {}", authUser.getName(), authUser.getScreenName(), authUser.getId());
         } catch (IOException | TwitterException e) {
-            logger.error("An error occured while authenticating twitter account.", e);
+            logger.error("An error occurred while authenticating twitter account.", e);
             throw new TwitterAuthenticationException(e);
         }
 
