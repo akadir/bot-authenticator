@@ -1,5 +1,6 @@
 # bot-authenticator
 
+[![Build Status](https://travis-ci.org/akadir/bot-authenticator.svg?branch=master)](https://travis-ci.org/akadir/bot-authenticator)
 [![gradle-version](https://img.shields.io/badge/gradle-5.5.1-brightgreen)](https://img.shields.io/badge/gradle-5.5.1-brightgreen)
 
 Project to authenticate twitter accounts using Twitter API tokens and twitter4j library.
