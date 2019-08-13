@@ -38,3 +38,13 @@ ex:
 ```
 Twitter twitter = BotAuthenticator.authenticate(PROPERTIES_FILE_NAME, API_KEYS_PREFIX);
 ```
+
+### Used Projects
+
+- [alligator](https://github.com/akadir/alligator)
+- [crocodile](https://github.com/akadir/crocodile)
+- [eagle](https://github.com/akadir/eagle)
+- [elephant](https://github.com/akadir/elephant)
+- [giraffe](https://github.com/akadir/giraffe)
+- [squirrel](https://github.com/akadir/squirrel)
+- [worm](https://github.com/akadir/worm)
