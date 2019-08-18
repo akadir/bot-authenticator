@@ -39,7 +39,7 @@ ex:
 Twitter twitter = BotAuthenticator.authenticate(PROPERTIES_FILE_NAME, API_KEYS_PREFIX);
 ```
 
-### Used Projects
+### Projects Used bot-authenticator
 
 - [alligator](https://github.com/akadir/alligator)
 - [crocodile](https://github.com/akadir/crocodile)
